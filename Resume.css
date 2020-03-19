@@ -1,0 +1,239 @@
+/*START--Top Navigation Bar with Dropdown*/
+.navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: lightseagreen;
+}
+.navbar li {
+   float: left;
+}
+.navbar li a, .dropbtn {
+   display: inline-block;
+   color: black;
+   font-family: 'Lobster', cursive;
+   text-align: center;
+   font-size: 30px;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+.navbar li a:hover, .dropdown:hover .dropbtn {
+   background-color: gainsboro;
+   color:mediumslateblue;
+}
+.navbar li.dropdown {
+   display: inline-block;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: gainsboro;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px white;
+}
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: black;
+}
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+/*END--Top Navigation Bar with Dropdown*/
+/*
+
+
+*/
+/*START-- Navigation Bar at the Bottom*/
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightseagreen;
+}
+
+nav li {
+  float: left;
+}
+
+li a:hover{ 
+	background-color: gainsboro;
+   color:mediumslateblue;
+ }
+nav li a {
+  display: block;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*END-- Navigation Bar at the Bottom*/
+
+/*adding a background image*/
+/*
+html{
+	background-image: url(https://images.unsplash.com/photo-1584346884836-46e6d0d72db4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+
+}
+*/
+/*body {
+   background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-attachment: scroll;
+}
+*/
+/*Resume Contact Info*/
+.contactinfo p{
+	text-align: center;
+	font-size: 15px;
+}
+.pageheader {
+  background-color: mediumslateblue;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+.fancy1 h1{
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 75px;
+	border-color: mediumslateblue;
+}
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+.resumename h2 {
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+button {
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+button:hover{
+	background: yellow;
+	color: darkblue;
+}
+
+.redButton {
+	border: 2px solid red;
+
+}
+.redButton:hover {
+	background-color: red;
+}
+.blueButton {
+	border: 2px solid blue;
+}
+.blueButton:hover{
+	background-color: blue;
+}
+
+
+
+h1{
+	color: black;
+	font-family: Georgia, serif;
+	text-align: center;
+}
+h2 {
+	color:indigo;
+	font-size: 50px;
+}
+
+.
+img {
+	border: 5px dotted indigo;
+}
+
+/*use commas to to separate multiple 
+selectors and apply the same rule to all*/
+
+table,td,th{
+	border: 1px solid black;
+}
+
+table{
+	background-color: yellow;
+	padding: 1px;
+	margin: 0 auto;
+}
+th, td {
+	background-color: lightblue;
+	padding: 2px;
+}
+.tableheadingrow{
+	margin-bottom: 10px;
+}
+
+/* the . signals a class*/ 
+.educationimage {
+	transform: rotate(180deg);
+	margin-bottom: : : 10px;
+}
+
+form input, form label, form select {
+	display:block;
+}
+
